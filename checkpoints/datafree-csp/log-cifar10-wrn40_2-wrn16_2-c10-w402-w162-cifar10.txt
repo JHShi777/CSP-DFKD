@@ -1,0 +1,384 @@
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: method: csp
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: adv: 1.33
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: bn: 10.0
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: oh: 0.5
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: act: 0
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: balance: 0
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: save_dir: run/c10-w402-w162-cifar10c10-w402-w162-cifar10
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: cmi_init: None
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: bn_mmt: 0.9
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: log_tag: -c10-w402-w162-cifar10
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: epochs: 320
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: warmup: 20
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: g_steps: 30
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: g_life: 10
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: g_loops: 2
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: gwp_loops: 10
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: lr_g: 0.004
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: le_emb_size: 1000
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: bnt: 20
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: oht: 3.0
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: curriculum: True
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: curriculum_warmup_epochs: 40
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: proto: 0.5
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: div: 0.15
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: teach: 0.2
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: conf: 0.25
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: proto_momentum: 0.9
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: proto_gate: 0.7
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: div_gate: 0.7
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: curriculum_easy_ratio: 0.25
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: curriculum_mid_ratio: 0.6
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: data_root: ./data
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: teacher: wrn40_2
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: student: wrn16_2
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: dataset: cifar10
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: lr: 0.2
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: eta_min: 0.0002
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: T: 20
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: kd_steps: 400
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: ep_steps: 400
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: resume: 
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: evaluate_only: False
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: batch_size: 512
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: synthesis_batch_size: 400
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: gpu: 0
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: world_size: -1
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: rank: -1
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: dist_url: tcp://224.66.41.62:23456
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: dist_backend: nccl
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: multiprocessing_distributed: False
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: fp16: False
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: seed: 0
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: workers: 4
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: start_epoch: 0
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: momentum: 0.9
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: weight_decay: 0.0001
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: print_freq: 0
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: pretrained: False
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: distributed: False
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: ngpus_per_node: 1
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: autocast: <function dummy_ctx at 0x7f411c8c0680>
+[06/29 17:47:43] cifar10-wrn40_2-wrn16_2 INFO: logger: <Logger cifar10-wrn40_2-wrn16_2 (DEBUG)>
+[06/29 17:48:39] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=0 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:4.6428 OH:0.0018 Cost:52.4213 Time:52.6633 Stage:easy
+[06/29 17:49:31] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=1 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:3.3712 OH:0.0027 Cost:51.9380 Time:52.1922 Stage:easy
+[06/29 17:50:24] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=2 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:2.6505 OH:0.0028 Cost:52.1193 Time:52.3909 Stage:easy
+[06/29 17:51:16] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=3 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:2.3611 OH:0.0027 Cost:52.2574 Time:52.5349 Stage:easy
+[06/29 17:52:08] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=4 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:2.0831 OH:0.0025 Cost:52.0088 Time:52.2745 Stage:easy
+[06/29 17:53:01] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=5 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:2.0179 OH:0.0030 Cost:52.2114 Time:52.4916 Stage:easy
+[06/29 17:53:53] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=6 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:1.9356 OH:0.0029 Cost:52.1049 Time:52.3903 Stage:easy
+[06/29 17:54:46] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=7 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:1.8461 OH:0.0027 Cost:52.3204 Time:52.5882 Stage:easy
+[06/29 17:55:39] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=8 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:1.7551 OH:0.0028 Cost:52.7243 Time:53.0552 Stage:easy
+[06/29 17:56:32] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=9 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:1.7420 OH:0.0028 Cost:52.5686 Time:52.8786 Stage:easy
+[06/29 17:57:26] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=10 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:3.9416 OH:0.0026 Cost:53.2850 Time:53.6902 Stage:easy
+[06/29 17:58:19] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=11 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:3.2647 OH:0.0024 Cost:53.0744 Time:53.3788 Stage:easy
+[06/29 17:59:14] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=12 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:2.6782 OH:0.0030 Cost:54.2118 Time:54.5931 Stage:easy
+[06/29 18:00:07] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=13 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:2.3921 OH:0.0029 Cost:53.2658 Time:53.6314 Stage:easy
+[06/29 18:01:01] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=14 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:2.1743 OH:0.0030 Cost:53.0102 Time:53.3376 Stage:easy
+[06/29 18:01:54] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=15 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:2.0295 OH:0.0027 Cost:52.6660 Time:52.9907 Stage:easy
+[06/29 18:02:47] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=16 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:2.0102 OH:0.0029 Cost:53.1664 Time:53.5269 Stage:easy
+[06/29 18:03:40] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=17 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:1.9267 OH:0.0026 Cost:52.9854 Time:53.3554 Stage:easy
+[06/29 18:04:34] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=18 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:1.7694 OH:0.0030 Cost:53.4503 Time:53.8981 Stage:easy
+[06/29 18:05:28] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=19 Acc@1=0.0000 Acc@5=0.0000 Loss=0.0000 Lr=0.2000 SL:1.7055 OH:0.0024 Cost:53.3785 Time:53.7941 Stage:easy
+[06/29 18:05:56] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=20 Acc@1=50.8900 Acc@5=95.7100 Loss=3.2314 Lr=0.2000 SL:3.1136 OH:0.0044 Cost:11.4636 Time:26.7442 Stage:easy
+[06/29 18:06:22] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=21 Acc@1=67.4700 Acc@5=95.4200 Loss=1.7838 Lr=0.2000 SL:3.3560 OH:0.0027 Cost:11.1511 Time:26.2942 Stage:easy
+[06/29 18:06:49] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=22 Acc@1=63.9700 Acc@5=98.0200 Loss=2.5093 Lr=0.2000 SL:3.6341 OH:0.0032 Cost:11.3083 Time:26.2905 Stage:easy
+[06/29 18:07:16] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=23 Acc@1=74.2000 Acc@5=98.4500 Loss=1.5755 Lr=0.2000 SL:3.7434 OH:0.0031 Cost:11.2866 Time:26.2479 Stage:easy
+[06/29 18:07:43] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=24 Acc@1=77.4200 Acc@5=99.1000 Loss=1.2863 Lr=0.1999 SL:3.7410 OH:0.0028 Cost:11.2704 Time:26.1477 Stage:easy
+[06/29 18:08:10] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=25 Acc@1=82.4300 Acc@5=98.8900 Loss=0.8416 Lr=0.1999 SL:3.7516 OH:0.0027 Cost:11.2495 Time:26.2451 Stage:easy
+[06/29 18:08:36] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=26 Acc@1=80.6300 Acc@5=99.0900 Loss=1.1576 Lr=0.1998 SL:3.7146 OH:0.0034 Cost:11.2464 Time:26.1649 Stage:easy
+[06/29 18:09:04] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=27 Acc@1=85.0000 Acc@5=99.3800 Loss=0.7111 Lr=0.1997 SL:3.5454 OH:0.0030 Cost:11.3959 Time:26.5511 Stage:easy
+[06/29 18:09:31] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=28 Acc@1=83.4200 Acc@5=99.1600 Loss=0.8383 Lr=0.1996 SL:3.5493 OH:0.0031 Cost:11.4296 Time:26.4761 Stage:easy
+[06/29 18:09:58] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=29 Acc@1=82.8300 Acc@5=99.5300 Loss=0.8782 Lr=0.1996 SL:3.2009 OH:0.1228 Cost:11.3146 Time:26.4488 Stage:mid
+[06/29 18:10:25] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=30 Acc@1=83.5600 Acc@5=99.1400 Loss=0.7891 Lr=0.1995 SL:4.5501 OH:0.1504 Cost:11.4785 Time:26.6513 Stage:mid
+[06/29 18:10:52] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=31 Acc@1=85.1300 Acc@5=99.3200 Loss=0.7232 Lr=0.1993 SL:4.6385 OH:0.1376 Cost:11.3187 Time:26.3782 Stage:mid
+[06/29 18:11:19] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=32 Acc@1=84.2200 Acc@5=98.7200 Loss=0.7245 Lr=0.1992 SL:4.8156 OH:0.1050 Cost:11.4383 Time:26.4647 Stage:mid
+[06/29 18:11:46] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=33 Acc@1=83.2300 Acc@5=99.4300 Loss=0.8774 Lr=0.1991 SL:4.6234 OH:0.1104 Cost:11.3056 Time:26.4076 Stage:mid
+[06/29 18:12:13] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=34 Acc@1=84.3200 Acc@5=99.2900 Loss=0.8281 Lr=0.1989 SL:4.4913 OH:0.0996 Cost:11.4078 Time:26.4621 Stage:mid
+[06/29 18:12:40] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=35 Acc@1=85.0800 Acc@5=99.5400 Loss=0.7767 Lr=0.1988 SL:4.3677 OH:0.0820 Cost:11.3413 Time:26.3219 Stage:mid
+[06/29 18:13:07] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=36 Acc@1=87.6600 Acc@5=99.5200 Loss=0.5980 Lr=0.1986 SL:4.1962 OH:0.0909 Cost:11.3446 Time:26.4194 Stage:mid
+[06/29 18:13:34] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=37 Acc@1=85.4800 Acc@5=99.4400 Loss=0.6995 Lr=0.1984 SL:3.9770 OH:0.0834 Cost:11.3122 Time:26.3893 Stage:mid
+[06/29 18:14:01] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=38 Acc@1=87.1600 Acc@5=99.4500 Loss=0.5770 Lr=0.1982 SL:3.8601 OH:0.1184 Cost:11.5911 Time:26.7486 Stage:mid
+[06/29 18:14:28] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=39 Acc@1=84.2600 Acc@5=98.9200 Loss=0.8044 Lr=0.1980 SL:3.6512 OH:0.1117 Cost:11.4370 Time:26.3817 Stage:mid
+[06/29 18:14:55] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=40 Acc@1=78.9100 Acc@5=98.7000 Loss=1.0962 Lr=0.1978 SL:4.5311 OH:0.1455 Cost:11.5292 Time:26.4258 Stage:mid
+[06/29 18:15:22] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=41 Acc@1=87.4500 Acc@5=99.2100 Loss=0.5634 Lr=0.1976 SL:4.5444 OH:0.1190 Cost:11.4482 Time:26.3301 Stage:mid
+[06/29 18:15:49] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=42 Acc@1=86.9200 Acc@5=99.4300 Loss=0.6134 Lr=0.1974 SL:4.4140 OH:0.0842 Cost:11.4032 Time:26.4102 Stage:mid
+[06/29 18:16:16] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=43 Acc@1=86.1700 Acc@5=99.5400 Loss=0.6655 Lr=0.1971 SL:3.8557 OH:0.4403 Cost:11.3816 Time:26.1851 Stage:hard
+[06/29 18:16:43] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=44 Acc@1=87.9300 Acc@5=99.5800 Loss=0.5664 Lr=0.1969 SL:4.7433 OH:0.5979 Cost:11.3362 Time:26.3285 Stage:hard
+[06/29 18:17:09] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=45 Acc@1=86.1300 Acc@5=99.5400 Loss=0.6379 Lr=0.1966 SL:4.8847 OH:0.4503 Cost:11.2656 Time:26.2317 Stage:hard
+[06/29 18:17:36] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=46 Acc@1=87.7000 Acc@5=99.4200 Loss=0.5550 Lr=0.1963 SL:5.5725 OH:0.4293 Cost:11.4440 Time:26.3998 Stage:hard
+[06/29 18:18:03] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=47 Acc@1=87.4800 Acc@5=99.5500 Loss=0.5397 Lr=0.1960 SL:5.7185 OH:0.4372 Cost:11.3708 Time:25.9610 Stage:hard
+[06/29 18:18:29] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=48 Acc@1=86.4800 Acc@5=98.9800 Loss=0.6405 Lr=0.1957 SL:5.9233 OH:0.4151 Cost:11.3217 Time:25.8744 Stage:hard
+[06/29 18:18:56] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=49 Acc@1=87.8000 Acc@5=99.5200 Loss=0.5375 Lr=0.1954 SL:6.0033 OH:0.4686 Cost:11.3154 Time:25.8856 Stage:hard
+[06/29 18:19:23] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=50 Acc@1=87.5800 Acc@5=99.6500 Loss=0.5671 Lr=0.1951 SL:8.2075 OH:0.6793 Cost:11.6417 Time:26.2498 Stage:hard
+[06/29 18:19:49] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=51 Acc@1=89.3700 Acc@5=99.5700 Loss=0.4296 Lr=0.1948 SL:8.4474 OH:0.5404 Cost:11.3616 Time:26.0007 Stage:hard
+[06/29 18:20:16] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=52 Acc@1=87.4700 Acc@5=99.3600 Loss=0.5604 Lr=0.1944 SL:8.5472 OH:0.4949 Cost:11.3420 Time:25.9349 Stage:hard
+[06/29 18:20:42] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=53 Acc@1=87.1200 Acc@5=99.6200 Loss=0.5415 Lr=0.1941 SL:8.3588 OH:0.4467 Cost:11.3693 Time:26.0195 Stage:hard
+[06/29 18:21:09] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=54 Acc@1=86.2200 Acc@5=99.5500 Loss=0.6518 Lr=0.1937 SL:8.2246 OH:0.4266 Cost:11.4655 Time:26.2137 Stage:hard
+[06/29 18:21:36] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=55 Acc@1=88.2200 Acc@5=99.6700 Loss=0.5263 Lr=0.1934 SL:8.5598 OH:0.5084 Cost:11.3974 Time:25.9515 Stage:hard
+[06/29 18:22:02] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=56 Acc@1=87.6800 Acc@5=99.6100 Loss=0.5648 Lr=0.1930 SL:8.6380 OH:0.4869 Cost:11.3103 Time:25.9203 Stage:hard
+[06/29 18:22:29] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=57 Acc@1=88.6700 Acc@5=99.5700 Loss=0.5403 Lr=0.1926 SL:8.1012 OH:0.4262 Cost:11.2873 Time:25.9225 Stage:hard
+[06/29 18:22:55] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=58 Acc@1=88.4900 Acc@5=99.6800 Loss=0.4929 Lr=0.1922 SL:8.1559 OH:0.4895 Cost:11.3940 Time:25.9693 Stage:hard
+[06/29 18:23:22] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=59 Acc@1=86.9600 Acc@5=99.1400 Loss=0.6075 Lr=0.1918 SL:7.6095 OH:0.4319 Cost:11.3558 Time:25.9031 Stage:hard
+[06/29 18:23:48] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=60 Acc@1=88.9300 Acc@5=99.3300 Loss=0.5157 Lr=0.1914 SL:9.6702 OH:0.5591 Cost:11.5484 Time:26.0395 Stage:hard
+[06/29 18:24:15] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=61 Acc@1=89.9300 Acc@5=99.6400 Loss=0.4601 Lr=0.1909 SL:10.5280 OH:0.4940 Cost:11.3629 Time:25.9573 Stage:hard
+[06/29 18:24:41] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=62 Acc@1=89.8300 Acc@5=99.6200 Loss=0.4001 Lr=0.1905 SL:10.1729 OH:0.4910 Cost:11.3512 Time:25.9222 Stage:hard
+[06/29 18:25:08] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=63 Acc@1=88.9400 Acc@5=99.7200 Loss=0.4790 Lr=0.1900 SL:9.2564 OH:0.3832 Cost:11.4454 Time:26.0135 Stage:hard
+[06/29 18:25:35] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=64 Acc@1=88.4800 Acc@5=99.6600 Loss=0.4716 Lr=0.1896 SL:8.6885 OH:0.4226 Cost:11.3926 Time:25.9457 Stage:hard
+[06/29 18:26:01] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=65 Acc@1=88.4700 Acc@5=99.2600 Loss=0.5051 Lr=0.1891 SL:8.3152 OH:0.3420 Cost:11.4430 Time:26.0392 Stage:hard
+[06/29 18:26:28] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=66 Acc@1=90.0000 Acc@5=99.5600 Loss=0.4329 Lr=0.1886 SL:7.9685 OH:0.3267 Cost:11.3561 Time:26.0113 Stage:hard
+[06/29 18:26:54] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=67 Acc@1=88.3600 Acc@5=99.4500 Loss=0.5170 Lr=0.1881 SL:7.5302 OH:0.3592 Cost:11.4271 Time:25.9348 Stage:hard
+[06/29 18:27:21] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=68 Acc@1=87.5400 Acc@5=99.7300 Loss=0.5884 Lr=0.1876 SL:7.2036 OH:0.4835 Cost:11.7037 Time:26.2408 Stage:hard
+[06/29 18:27:48] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=69 Acc@1=89.7200 Acc@5=99.6600 Loss=0.4503 Lr=0.1871 SL:7.2058 OH:0.4392 Cost:11.4977 Time:26.0430 Stage:hard
+[06/29 18:28:14] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=70 Acc@1=90.3400 Acc@5=99.7100 Loss=0.4026 Lr=0.1866 SL:9.0133 OH:0.5213 Cost:11.5452 Time:26.0514 Stage:hard
+[06/29 18:28:41] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=71 Acc@1=89.4900 Acc@5=99.5100 Loss=0.4369 Lr=0.1861 SL:8.4211 OH:0.3638 Cost:11.3492 Time:25.9519 Stage:hard
+[06/29 18:29:08] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=72 Acc@1=87.3800 Acc@5=99.5800 Loss=0.5592 Lr=0.1856 SL:8.1009 OH:0.4931 Cost:11.4251 Time:25.9669 Stage:hard
+[06/29 18:29:34] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=73 Acc@1=87.5800 Acc@5=99.4600 Loss=0.5211 Lr=0.1850 SL:7.8318 OH:0.4367 Cost:11.5422 Time:26.0536 Stage:hard
+[06/29 18:30:01] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=74 Acc@1=86.4500 Acc@5=99.2600 Loss=0.6380 Lr=0.1844 SL:7.9842 OH:0.4650 Cost:11.5194 Time:26.0505 Stage:hard
+[06/29 18:30:27] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=75 Acc@1=88.0800 Acc@5=99.5700 Loss=0.5277 Lr=0.1839 SL:7.8987 OH:0.4205 Cost:11.4816 Time:26.0272 Stage:hard
+[06/29 18:30:54] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=76 Acc@1=88.2200 Acc@5=99.4700 Loss=0.5297 Lr=0.1833 SL:7.8920 OH:0.5472 Cost:11.3917 Time:26.0148 Stage:hard
+[06/29 18:31:21] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=77 Acc@1=89.4900 Acc@5=99.6700 Loss=0.4234 Lr=0.1827 SL:7.7365 OH:0.3565 Cost:11.4834 Time:25.9581 Stage:hard
+[06/29 18:31:47] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=78 Acc@1=89.6100 Acc@5=99.5600 Loss=0.4485 Lr=0.1821 SL:7.5660 OH:0.3809 Cost:11.4498 Time:25.9746 Stage:hard
+[06/29 18:32:14] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=79 Acc@1=89.1800 Acc@5=99.6800 Loss=0.4680 Lr=0.1815 SL:7.3774 OH:0.3827 Cost:11.5412 Time:26.1579 Stage:hard
+[06/29 18:32:41] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=80 Acc@1=88.3400 Acc@5=99.5500 Loss=0.5035 Lr=0.1809 SL:8.8300 OH:0.4647 Cost:11.5937 Time:26.1306 Stage:hard
+[06/29 18:33:07] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=81 Acc@1=90.7000 Acc@5=99.7200 Loss=0.3891 Lr=0.1803 SL:9.2097 OH:0.4518 Cost:11.4304 Time:25.9630 Stage:hard
+[06/29 18:33:34] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=82 Acc@1=90.5800 Acc@5=99.5300 Loss=0.3839 Lr=0.1797 SL:8.8362 OH:0.4819 Cost:11.3269 Time:25.9231 Stage:hard
+[06/29 18:34:00] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=83 Acc@1=88.6300 Acc@5=99.7000 Loss=0.5048 Lr=0.1790 SL:8.6621 OH:0.4054 Cost:11.3263 Time:25.9872 Stage:hard
+[06/29 18:34:27] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=84 Acc@1=90.3400 Acc@5=99.6200 Loss=0.4122 Lr=0.1784 SL:8.4043 OH:0.3998 Cost:11.5452 Time:26.1965 Stage:hard
+[06/29 18:34:54] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=85 Acc@1=89.9700 Acc@5=99.5300 Loss=0.4236 Lr=0.1777 SL:8.1150 OH:0.3918 Cost:11.3745 Time:25.9309 Stage:hard
+[06/29 18:35:20] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=86 Acc@1=90.0100 Acc@5=99.7200 Loss=0.4366 Lr=0.1771 SL:7.7950 OH:0.4163 Cost:11.3857 Time:25.9968 Stage:hard
+[06/29 18:35:47] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=87 Acc@1=90.9200 Acc@5=99.7400 Loss=0.3803 Lr=0.1764 SL:7.6270 OH:0.3754 Cost:11.4106 Time:26.0057 Stage:hard
+[06/29 18:36:13] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=88 Acc@1=89.3400 Acc@5=99.7000 Loss=0.4704 Lr=0.1757 SL:7.1271 OH:0.3365 Cost:11.4160 Time:25.9881 Stage:hard
+[06/29 18:36:40] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=89 Acc@1=89.2700 Acc@5=99.7700 Loss=0.4649 Lr=0.1750 SL:6.9829 OH:0.3651 Cost:11.3375 Time:25.8601 Stage:hard
+[06/29 18:37:06] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=90 Acc@1=89.0300 Acc@5=99.6000 Loss=0.4883 Lr=0.1743 SL:8.7400 OH:0.5685 Cost:11.4928 Time:25.9819 Stage:hard
+[06/29 18:37:33] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=91 Acc@1=89.6600 Acc@5=99.6600 Loss=0.4384 Lr=0.1736 SL:9.0505 OH:0.5099 Cost:11.4900 Time:26.1856 Stage:hard
+[06/29 18:38:00] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=92 Acc@1=89.2600 Acc@5=99.4400 Loss=0.4397 Lr=0.1729 SL:8.7953 OH:0.5879 Cost:11.5289 Time:26.1342 Stage:hard
+[06/29 18:38:26] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=93 Acc@1=90.9400 Acc@5=99.7000 Loss=0.3748 Lr=0.1722 SL:8.6144 OH:0.5663 Cost:11.4800 Time:26.0862 Stage:hard
+[06/29 18:38:53] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=94 Acc@1=90.0200 Acc@5=99.6900 Loss=0.3930 Lr=0.1715 SL:8.3830 OH:0.3406 Cost:11.3566 Time:25.8302 Stage:hard
+[06/29 18:39:19] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=95 Acc@1=91.4700 Acc@5=99.7100 Loss=0.3510 Lr=0.1707 SL:8.0484 OH:0.3293 Cost:11.3477 Time:25.8614 Stage:hard
+[06/29 18:39:46] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=96 Acc@1=90.9600 Acc@5=99.7000 Loss=0.3809 Lr=0.1700 SL:7.5660 OH:0.2863 Cost:11.4047 Time:26.0234 Stage:hard
+[06/29 18:40:13] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=97 Acc@1=85.1600 Acc@5=99.5500 Loss=0.7228 Lr=0.1692 SL:7.5214 OH:0.3812 Cost:11.5181 Time:26.1948 Stage:hard
+[06/29 18:40:39] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=98 Acc@1=90.1000 Acc@5=99.7500 Loss=0.4108 Lr=0.1685 SL:7.5553 OH:0.5223 Cost:11.3985 Time:26.0763 Stage:hard
+[06/29 18:41:06] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=99 Acc@1=90.2900 Acc@5=99.4300 Loss=0.4005 Lr=0.1677 SL:7.3041 OH:0.3618 Cost:11.5256 Time:26.2779 Stage:hard
+[06/29 18:41:33] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=100 Acc@1=90.2900 Acc@5=99.5800 Loss=0.4502 Lr=0.1669 SL:8.7170 OH:0.5589 Cost:11.5901 Time:26.2263 Stage:hard
+[06/29 18:42:00] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=101 Acc@1=89.9700 Acc@5=99.7000 Loss=0.4120 Lr=0.1662 SL:8.3100 OH:0.5232 Cost:11.4663 Time:26.0472 Stage:hard
+[06/29 18:42:26] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=102 Acc@1=90.3700 Acc@5=99.6400 Loss=0.3918 Lr=0.1654 SL:7.9033 OH:0.4189 Cost:11.3948 Time:25.9083 Stage:hard
+[06/29 18:42:53] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=103 Acc@1=91.6300 Acc@5=99.7600 Loss=0.3560 Lr=0.1646 SL:7.8753 OH:0.4067 Cost:11.4672 Time:26.2070 Stage:hard
+[06/29 18:43:20] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=104 Acc@1=89.8100 Acc@5=99.4600 Loss=0.4560 Lr=0.1638 SL:7.5017 OH:0.4003 Cost:11.4369 Time:26.1236 Stage:hard
+[06/29 18:43:47] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=105 Acc@1=91.1200 Acc@5=99.7100 Loss=0.3649 Lr=0.1630 SL:7.2428 OH:0.3683 Cost:11.4864 Time:26.1835 Stage:hard
+[06/29 18:44:13] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=106 Acc@1=88.5900 Acc@5=99.6100 Loss=0.4941 Lr=0.1622 SL:7.0893 OH:0.3676 Cost:11.5018 Time:26.1540 Stage:hard
+[06/29 18:44:40] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=107 Acc@1=90.1500 Acc@5=99.7200 Loss=0.4086 Lr=0.1613 SL:6.9096 OH:0.3600 Cost:11.5211 Time:26.0665 Stage:hard
+[06/29 18:45:07] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=108 Acc@1=91.6500 Acc@5=99.6700 Loss=0.3196 Lr=0.1605 SL:6.7520 OH:0.3709 Cost:11.4021 Time:26.0312 Stage:hard
+[06/29 18:45:33] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=109 Acc@1=91.6400 Acc@5=99.8200 Loss=0.3359 Lr=0.1597 SL:6.4313 OH:0.2716 Cost:11.2913 Time:25.8869 Stage:hard
+[06/29 18:46:00] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=110 Acc@1=90.3500 Acc@5=99.5700 Loss=0.4124 Lr=0.1588 SL:7.8168 OH:0.3878 Cost:11.6277 Time:26.3512 Stage:hard
+[06/29 18:46:27] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=111 Acc@1=90.8200 Acc@5=99.7100 Loss=0.3711 Lr=0.1580 SL:7.7549 OH:0.3609 Cost:11.3985 Time:26.0088 Stage:hard
+[06/29 18:46:53] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=112 Acc@1=90.9900 Acc@5=99.7200 Loss=0.3656 Lr=0.1571 SL:7.6650 OH:0.4094 Cost:11.4108 Time:26.0316 Stage:hard
+[06/29 18:47:20] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=113 Acc@1=90.8400 Acc@5=99.6500 Loss=0.3665 Lr=0.1563 SL:7.7320 OH:0.4006 Cost:11.4252 Time:26.0536 Stage:hard
+[06/29 18:47:47] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=114 Acc@1=91.0400 Acc@5=99.7800 Loss=0.3569 Lr=0.1554 SL:7.5790 OH:0.3603 Cost:11.4447 Time:26.1839 Stage:hard
+[06/29 18:48:14] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=115 Acc@1=90.8200 Acc@5=99.7700 Loss=0.3764 Lr=0.1545 SL:7.6738 OH:0.2850 Cost:11.3845 Time:26.0270 Stage:hard
+[06/29 18:48:40] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=116 Acc@1=90.7400 Acc@5=99.8000 Loss=0.3622 Lr=0.1536 SL:7.5657 OH:0.3880 Cost:11.6388 Time:26.2073 Stage:hard
+[06/29 18:49:07] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=117 Acc@1=90.5100 Acc@5=99.7900 Loss=0.3880 Lr=0.1527 SL:7.4476 OH:0.3789 Cost:11.4009 Time:26.0019 Stage:hard
+[06/29 18:49:34] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=118 Acc@1=89.5400 Acc@5=99.4300 Loss=0.4380 Lr=0.1519 SL:7.4066 OH:0.4105 Cost:11.4747 Time:26.1675 Stage:hard
+[06/29 18:50:00] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=119 Acc@1=91.6100 Acc@5=99.6800 Loss=0.3327 Lr=0.1510 SL:7.2993 OH:0.3599 Cost:11.4599 Time:26.0481 Stage:hard
+[06/29 18:50:27] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=120 Acc@1=90.0500 Acc@5=99.8100 Loss=0.4445 Lr=0.1500 SL:8.5853 OH:0.3723 Cost:11.6729 Time:26.3408 Stage:hard
+[06/29 18:50:54] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=121 Acc@1=91.1200 Acc@5=99.6400 Loss=0.3685 Lr=0.1491 SL:7.6804 OH:0.3678 Cost:11.3933 Time:25.9636 Stage:hard
+[06/29 18:51:21] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=122 Acc@1=90.9800 Acc@5=99.7200 Loss=0.3668 Lr=0.1482 SL:7.0951 OH:0.3284 Cost:11.5306 Time:26.1951 Stage:hard
+[06/29 18:51:48] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=123 Acc@1=90.8600 Acc@5=99.6900 Loss=0.3762 Lr=0.1473 SL:6.4171 OH:0.3185 Cost:11.4444 Time:26.1646 Stage:hard
+[06/29 18:52:14] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=124 Acc@1=90.8700 Acc@5=99.7000 Loss=0.3410 Lr=0.1464 SL:6.4115 OH:0.3920 Cost:11.4425 Time:26.1129 Stage:hard
+[06/29 18:52:41] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=125 Acc@1=90.8100 Acc@5=99.7700 Loss=0.3765 Lr=0.1455 SL:6.3375 OH:0.3419 Cost:11.4436 Time:26.2115 Stage:hard
+[06/29 18:53:08] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=126 Acc@1=89.8300 Acc@5=99.7400 Loss=0.4568 Lr=0.1445 SL:6.2315 OH:0.3583 Cost:11.5266 Time:26.2064 Stage:hard
+[06/29 18:53:34] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=127 Acc@1=90.5300 Acc@5=99.6700 Loss=0.3848 Lr=0.1436 SL:6.3252 OH:0.3623 Cost:11.4993 Time:26.0918 Stage:hard
+[06/29 18:54:01] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=128 Acc@1=90.5300 Acc@5=99.7300 Loss=0.3946 Lr=0.1426 SL:6.2431 OH:0.3504 Cost:11.5206 Time:26.2744 Stage:hard
+[06/29 18:54:28] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=129 Acc@1=90.3600 Acc@5=99.8000 Loss=0.4284 Lr=0.1417 SL:6.2733 OH:0.3823 Cost:11.6654 Time:26.3201 Stage:hard
+[06/29 18:54:55] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=130 Acc@1=91.1900 Acc@5=99.7000 Loss=0.3504 Lr=0.1407 SL:7.5281 OH:0.5372 Cost:11.6359 Time:26.2137 Stage:hard
+[06/29 18:55:22] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=131 Acc@1=91.5300 Acc@5=99.7300 Loss=0.3351 Lr=0.1398 SL:7.4305 OH:0.3827 Cost:11.5258 Time:26.2160 Stage:hard
+[06/29 18:55:49] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=132 Acc@1=90.4200 Acc@5=99.6700 Loss=0.4104 Lr=0.1388 SL:7.3180 OH:0.3734 Cost:11.4071 Time:26.0759 Stage:hard
+[06/29 18:56:15] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=133 Acc@1=90.6600 Acc@5=99.7300 Loss=0.3877 Lr=0.1378 SL:7.3292 OH:0.3833 Cost:11.5649 Time:26.2092 Stage:hard
+[06/29 18:56:42] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=134 Acc@1=91.4900 Acc@5=99.7300 Loss=0.3546 Lr=0.1369 SL:7.3187 OH:0.3407 Cost:11.6427 Time:26.2986 Stage:hard
+[06/29 18:57:09] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=135 Acc@1=90.3100 Acc@5=99.6700 Loss=0.4000 Lr=0.1359 SL:7.2907 OH:0.3360 Cost:11.5679 Time:26.2288 Stage:hard
+[06/29 18:57:36] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=136 Acc@1=91.4300 Acc@5=99.6600 Loss=0.3463 Lr=0.1349 SL:7.2283 OH:0.3865 Cost:11.4997 Time:26.2651 Stage:hard
+[06/29 18:58:03] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=137 Acc@1=91.7400 Acc@5=99.6900 Loss=0.3421 Lr=0.1339 SL:7.1275 OH:0.3391 Cost:11.4153 Time:26.0485 Stage:hard
+[06/29 18:58:29] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=138 Acc@1=91.3600 Acc@5=99.7500 Loss=0.3327 Lr=0.1330 SL:6.7499 OH:0.3470 Cost:11.4385 Time:26.0831 Stage:hard
+[06/29 18:58:56] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=139 Acc@1=91.1800 Acc@5=99.6500 Loss=0.3517 Lr=0.1320 SL:6.3870 OH:0.2881 Cost:11.4982 Time:26.1970 Stage:hard
+[06/29 18:59:23] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=140 Acc@1=91.4700 Acc@5=99.7800 Loss=0.3353 Lr=0.1310 SL:7.6270 OH:0.4368 Cost:11.5638 Time:26.1848 Stage:hard
+[06/29 18:59:50] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=141 Acc@1=90.9800 Acc@5=99.7800 Loss=0.3611 Lr=0.1300 SL:7.3977 OH:0.3573 Cost:11.4903 Time:26.2101 Stage:hard
+[06/29 19:00:16] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=142 Acc@1=92.1700 Acc@5=99.7900 Loss=0.3281 Lr=0.1290 SL:7.1094 OH:0.3992 Cost:11.5395 Time:26.2346 Stage:hard
+[06/29 19:00:43] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=143 Acc@1=91.0100 Acc@5=99.7000 Loss=0.3490 Lr=0.1280 SL:6.7263 OH:0.3365 Cost:11.5018 Time:26.2330 Stage:hard
+[06/29 19:01:10] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=144 Acc@1=91.5000 Acc@5=99.8000 Loss=0.3320 Lr=0.1270 SL:6.6694 OH:0.3554 Cost:11.5623 Time:26.3061 Stage:hard
+[06/29 19:01:37] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=145 Acc@1=91.6200 Acc@5=99.7700 Loss=0.3318 Lr=0.1260 SL:6.5266 OH:0.3730 Cost:11.4883 Time:26.1708 Stage:hard
+[06/29 19:02:04] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=146 Acc@1=88.3300 Acc@5=99.7500 Loss=0.5462 Lr=0.1249 SL:6.3393 OH:0.3334 Cost:11.4863 Time:26.2367 Stage:hard
+[06/29 19:02:31] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=147 Acc@1=91.5500 Acc@5=99.8200 Loss=0.3438 Lr=0.1239 SL:6.3587 OH:0.4209 Cost:11.4590 Time:26.1313 Stage:hard
+[06/29 19:02:57] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=148 Acc@1=91.6400 Acc@5=99.7200 Loss=0.3462 Lr=0.1229 SL:6.0693 OH:0.2597 Cost:11.5672 Time:26.1767 Stage:hard
+[06/29 19:03:24] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=149 Acc@1=91.1400 Acc@5=99.6900 Loss=0.3541 Lr=0.1219 SL:5.8435 OH:0.3103 Cost:11.5038 Time:26.1366 Stage:hard
+[06/29 19:03:51] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=150 Acc@1=91.2200 Acc@5=99.7900 Loss=0.3407 Lr=0.1209 SL:7.2865 OH:0.3451 Cost:11.6454 Time:26.2806 Stage:hard
+[06/29 19:04:18] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=151 Acc@1=91.8400 Acc@5=99.7300 Loss=0.3451 Lr=0.1198 SL:7.3123 OH:0.2985 Cost:11.4496 Time:26.1665 Stage:hard
+[06/29 19:04:45] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=152 Acc@1=91.3200 Acc@5=99.6900 Loss=0.3361 Lr=0.1188 SL:7.0575 OH:0.4782 Cost:11.5545 Time:26.1943 Stage:hard
+[06/29 19:05:11] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=153 Acc@1=90.4900 Acc@5=99.6300 Loss=0.4168 Lr=0.1178 SL:7.0048 OH:0.3016 Cost:11.5053 Time:26.1603 Stage:hard
+[06/29 19:05:38] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=154 Acc@1=91.2700 Acc@5=99.7000 Loss=0.3396 Lr=0.1168 SL:6.9507 OH:0.3933 Cost:11.5957 Time:26.2240 Stage:hard
+[06/29 19:06:05] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=155 Acc@1=91.7000 Acc@5=99.7600 Loss=0.3266 Lr=0.1157 SL:6.9910 OH:0.3454 Cost:11.7167 Time:26.4181 Stage:hard
+[06/29 19:06:32] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=156 Acc@1=91.3100 Acc@5=99.7500 Loss=0.3666 Lr=0.1147 SL:6.9096 OH:0.3600 Cost:11.4567 Time:26.1982 Stage:hard
+[06/29 19:06:59] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=157 Acc@1=91.8200 Acc@5=99.7000 Loss=0.3536 Lr=0.1137 SL:6.6773 OH:0.3352 Cost:11.3946 Time:26.1953 Stage:hard
+[06/29 19:07:25] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=158 Acc@1=91.7700 Acc@5=99.8000 Loss=0.3247 Lr=0.1126 SL:6.4605 OH:0.3795 Cost:11.4205 Time:26.1296 Stage:hard
+[06/29 19:07:52] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=159 Acc@1=92.1800 Acc@5=99.7300 Loss=0.3246 Lr=0.1116 SL:6.2030 OH:0.3514 Cost:11.4895 Time:26.2454 Stage:hard
+[06/29 19:08:19] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=160 Acc@1=91.9400 Acc@5=99.7700 Loss=0.3235 Lr=0.1105 SL:7.9874 OH:0.4217 Cost:11.6064 Time:26.3121 Stage:hard
+[06/29 19:08:46] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=161 Acc@1=91.2500 Acc@5=99.7500 Loss=0.3476 Lr=0.1095 SL:7.9137 OH:0.3383 Cost:11.4569 Time:26.1594 Stage:hard
+[06/29 19:09:13] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=162 Acc@1=90.3400 Acc@5=99.6500 Loss=0.3927 Lr=0.1085 SL:7.8490 OH:0.3198 Cost:11.4124 Time:26.0876 Stage:hard
+[06/29 19:09:39] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=163 Acc@1=90.6200 Acc@5=99.7900 Loss=0.3718 Lr=0.1074 SL:7.6236 OH:0.3438 Cost:11.5446 Time:26.1829 Stage:hard
+[06/29 19:10:06] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=164 Acc@1=91.3800 Acc@5=99.6400 Loss=0.3396 Lr=0.1064 SL:7.4628 OH:0.4019 Cost:11.5205 Time:26.1136 Stage:hard
+[06/29 19:10:33] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=165 Acc@1=91.7500 Acc@5=99.7000 Loss=0.3380 Lr=0.1053 SL:7.1082 OH:0.3374 Cost:11.5830 Time:26.1772 Stage:hard
+[06/29 19:11:00] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=166 Acc@1=91.6400 Acc@5=99.7700 Loss=0.3488 Lr=0.1043 SL:6.9435 OH:0.3768 Cost:11.4947 Time:26.2190 Stage:hard
+[06/29 19:11:27] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=167 Acc@1=91.9100 Acc@5=99.7900 Loss=0.3222 Lr=0.1032 SL:6.5263 OH:0.3010 Cost:11.5419 Time:26.2414 Stage:hard
+[06/29 19:11:53] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=168 Acc@1=88.8700 Acc@5=99.6700 Loss=0.4663 Lr=0.1022 SL:6.2508 OH:0.3300 Cost:11.4748 Time:26.2372 Stage:hard
+[06/29 19:12:20] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=169 Acc@1=91.2800 Acc@5=99.7200 Loss=0.3559 Lr=0.1011 SL:6.3800 OH:0.4192 Cost:11.5405 Time:26.1237 Stage:hard
+[06/29 19:12:47] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=170 Acc@1=92.2700 Acc@5=99.7000 Loss=0.3052 Lr=0.1001 SL:8.0679 OH:0.4691 Cost:11.6362 Time:26.2813 Stage:hard
+[06/29 19:13:14] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=171 Acc@1=91.8300 Acc@5=99.8200 Loss=0.3326 Lr=0.0991 SL:7.8457 OH:0.3863 Cost:11.5334 Time:26.0975 Stage:hard
+[06/29 19:13:41] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=172 Acc@1=90.9800 Acc@5=99.5500 Loss=0.3623 Lr=0.0980 SL:7.7989 OH:0.3777 Cost:11.4929 Time:26.2369 Stage:hard
+[06/29 19:14:07] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=173 Acc@1=91.9600 Acc@5=99.7200 Loss=0.3136 Lr=0.0970 SL:7.9282 OH:0.4157 Cost:11.4413 Time:26.1753 Stage:hard
+[06/29 19:14:34] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=174 Acc@1=91.9800 Acc@5=99.8100 Loss=0.3194 Lr=0.0959 SL:7.4360 OH:0.3379 Cost:11.6006 Time:26.2361 Stage:hard
+[06/29 19:15:00] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=175 Acc@1=92.7000 Acc@5=99.8400 Loss=0.2966 Lr=0.0949 SL:7.3812 OH:0.3884 Cost:11.5290 Time:25.7181 Stage:hard
+[06/29 19:15:27] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=176 Acc@1=92.1400 Acc@5=99.7400 Loss=0.3056 Lr=0.0938 SL:6.9668 OH:0.2837 Cost:11.5513 Time:25.6858 Stage:hard
+[06/29 19:15:53] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=177 Acc@1=91.6500 Acc@5=99.8100 Loss=0.3345 Lr=0.0928 SL:6.8815 OH:0.3012 Cost:11.4664 Time:25.6404 Stage:hard
+[06/29 19:16:19] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=178 Acc@1=90.6200 Acc@5=99.7200 Loss=0.3777 Lr=0.0917 SL:6.6344 OH:0.3483 Cost:11.5267 Time:25.7906 Stage:hard
+[06/29 19:16:46] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=179 Acc@1=91.5000 Acc@5=99.8100 Loss=0.3621 Lr=0.0907 SL:6.5127 OH:0.3901 Cost:11.4948 Time:25.7098 Stage:hard
+[06/29 19:17:12] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=180 Acc@1=91.7000 Acc@5=99.8100 Loss=0.3257 Lr=0.0897 SL:7.9981 OH:0.3478 Cost:11.6973 Time:25.9410 Stage:hard
+[06/29 19:17:39] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=181 Acc@1=92.0500 Acc@5=99.7400 Loss=0.3056 Lr=0.0886 SL:8.0884 OH:0.3122 Cost:11.6977 Time:25.8935 Stage:hard
+[06/29 19:18:05] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=182 Acc@1=92.1900 Acc@5=99.8200 Loss=0.2989 Lr=0.0876 SL:7.6664 OH:0.3022 Cost:11.5342 Time:25.7492 Stage:hard
+[06/29 19:18:31] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=183 Acc@1=91.8300 Acc@5=99.7400 Loss=0.3305 Lr=0.0865 SL:7.2863 OH:0.2456 Cost:11.3127 Time:25.5069 Stage:hard
+[06/29 19:18:57] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=184 Acc@1=91.8500 Acc@5=99.7500 Loss=0.3246 Lr=0.0855 SL:6.8819 OH:0.2981 Cost:11.5251 Time:25.6823 Stage:hard
+[06/29 19:19:24] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=185 Acc@1=92.0100 Acc@5=99.8100 Loss=0.3116 Lr=0.0845 SL:6.6816 OH:0.3273 Cost:11.4496 Time:25.6844 Stage:hard
+[06/29 19:19:50] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=186 Acc@1=91.8900 Acc@5=99.7700 Loss=0.3152 Lr=0.0834 SL:6.1946 OH:0.3058 Cost:11.5856 Time:25.7713 Stage:hard
+[06/29 19:20:16] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=187 Acc@1=92.3400 Acc@5=99.8500 Loss=0.3108 Lr=0.0824 SL:6.0780 OH:0.3259 Cost:11.5369 Time:25.7959 Stage:hard
+[06/29 19:20:43] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=188 Acc@1=92.1000 Acc@5=99.8200 Loss=0.3030 Lr=0.0814 SL:5.6849 OH:0.3097 Cost:11.6274 Time:25.9231 Stage:hard
+[06/29 19:21:09] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=189 Acc@1=92.0000 Acc@5=99.7800 Loss=0.3341 Lr=0.0804 SL:5.5983 OH:0.2862 Cost:11.5326 Time:25.7193 Stage:hard
+[06/29 19:21:36] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=190 Acc@1=92.1500 Acc@5=99.8000 Loss=0.3363 Lr=0.0793 SL:7.4922 OH:0.3658 Cost:11.7618 Time:25.9036 Stage:hard
+[06/29 19:22:02] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=191 Acc@1=91.7000 Acc@5=99.8300 Loss=0.3610 Lr=0.0783 SL:7.6812 OH:0.4273 Cost:11.5133 Time:25.6813 Stage:hard
+[06/29 19:22:28] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=192 Acc@1=91.9400 Acc@5=99.7600 Loss=0.3145 Lr=0.0773 SL:7.2028 OH:0.4400 Cost:11.4776 Time:25.7005 Stage:hard
+[06/29 19:22:55] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=193 Acc@1=92.2700 Acc@5=99.8500 Loss=0.3104 Lr=0.0763 SL:7.0563 OH:0.3881 Cost:11.5594 Time:25.8232 Stage:hard
+[06/29 19:23:21] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=194 Acc@1=90.9700 Acc@5=99.8700 Loss=0.3666 Lr=0.0753 SL:6.7961 OH:0.3248 Cost:11.5651 Time:25.7628 Stage:hard
+[06/29 19:23:47] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=195 Acc@1=91.8000 Acc@5=99.7800 Loss=0.3353 Lr=0.0742 SL:6.7231 OH:0.3970 Cost:11.5367 Time:25.7132 Stage:hard
+[06/29 19:24:14] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=196 Acc@1=92.4800 Acc@5=99.7600 Loss=0.3048 Lr=0.0732 SL:6.3395 OH:0.2719 Cost:11.5580 Time:25.8095 Stage:hard
+[06/29 19:24:40] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=197 Acc@1=92.8800 Acc@5=99.8100 Loss=0.2740 Lr=0.0722 SL:6.1513 OH:0.2715 Cost:11.5695 Time:25.8370 Stage:hard
+[06/29 19:25:07] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=198 Acc@1=92.1500 Acc@5=99.7700 Loss=0.2998 Lr=0.0712 SL:5.9232 OH:0.3430 Cost:11.4192 Time:25.6818 Stage:hard
+[06/29 19:25:33] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=199 Acc@1=91.7100 Acc@5=99.8200 Loss=0.3131 Lr=0.0702 SL:5.6959 OH:0.2801 Cost:11.5743 Time:25.7230 Stage:hard
+[06/29 19:25:59] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=200 Acc@1=92.4800 Acc@5=99.7500 Loss=0.2882 Lr=0.0692 SL:7.6773 OH:0.3630 Cost:11.6475 Time:25.7733 Stage:hard
+[06/29 19:26:26] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=201 Acc@1=92.2700 Acc@5=99.8100 Loss=0.3082 Lr=0.0682 SL:7.1202 OH:0.3243 Cost:11.6641 Time:25.8966 Stage:hard
+[06/29 19:26:52] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=202 Acc@1=92.4300 Acc@5=99.8500 Loss=0.3032 Lr=0.0672 SL:7.0619 OH:0.2815 Cost:11.4954 Time:25.8354 Stage:hard
+[06/29 19:27:19] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=203 Acc@1=91.3800 Acc@5=99.7700 Loss=0.3600 Lr=0.0663 SL:7.1320 OH:0.3002 Cost:11.5074 Time:25.7507 Stage:hard
+[06/29 19:27:45] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=204 Acc@1=92.7400 Acc@5=99.7900 Loss=0.2826 Lr=0.0653 SL:7.0658 OH:0.3481 Cost:11.4923 Time:25.7268 Stage:hard
+[06/29 19:28:11] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=205 Acc@1=93.0900 Acc@5=99.8000 Loss=0.2725 Lr=0.0643 SL:6.8600 OH:0.2874 Cost:11.5708 Time:25.7553 Stage:hard
+[06/29 19:28:38] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=206 Acc@1=92.4600 Acc@5=99.8300 Loss=0.2979 Lr=0.0633 SL:6.6365 OH:0.3108 Cost:11.5944 Time:25.7668 Stage:hard
+[06/29 19:29:04] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=207 Acc@1=92.7900 Acc@5=99.7800 Loss=0.2845 Lr=0.0624 SL:6.5055 OH:0.3539 Cost:11.5527 Time:25.7990 Stage:hard
+[06/29 19:29:30] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=208 Acc@1=91.8900 Acc@5=99.6800 Loss=0.3253 Lr=0.0614 SL:6.3348 OH:0.3338 Cost:11.5519 Time:25.8538 Stage:hard
+[06/29 19:29:57] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=209 Acc@1=92.2700 Acc@5=99.8100 Loss=0.2980 Lr=0.0604 SL:6.1233 OH:0.3246 Cost:11.6329 Time:25.9632 Stage:hard
+[06/29 19:30:23] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=210 Acc@1=92.4100 Acc@5=99.7700 Loss=0.3027 Lr=0.0595 SL:7.7055 OH:0.3843 Cost:11.6473 Time:25.8132 Stage:hard
+[06/29 19:30:50] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=211 Acc@1=92.1400 Acc@5=99.8100 Loss=0.3143 Lr=0.0585 SL:7.3128 OH:0.3868 Cost:11.5452 Time:25.7138 Stage:hard
+[06/29 19:31:16] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=212 Acc@1=92.2200 Acc@5=99.8100 Loss=0.3076 Lr=0.0576 SL:7.0230 OH:0.3611 Cost:11.5843 Time:25.8129 Stage:hard
+[06/29 19:31:43] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=213 Acc@1=92.5900 Acc@5=99.7900 Loss=0.3014 Lr=0.0566 SL:6.5599 OH:0.4297 Cost:11.6621 Time:25.9292 Stage:hard
+[06/29 19:32:09] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=214 Acc@1=91.8400 Acc@5=99.7400 Loss=0.3427 Lr=0.0557 SL:6.3047 OH:0.2843 Cost:11.4448 Time:25.6692 Stage:hard
+[06/29 19:32:35] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=215 Acc@1=92.8400 Acc@5=99.8300 Loss=0.2884 Lr=0.0547 SL:6.3229 OH:0.3909 Cost:11.6739 Time:25.8850 Stage:hard
+[06/29 19:33:02] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=216 Acc@1=92.3900 Acc@5=99.8200 Loss=0.3028 Lr=0.0538 SL:5.9444 OH:0.2912 Cost:11.7437 Time:26.0217 Stage:hard
+[06/29 19:33:29] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=217 Acc@1=92.6300 Acc@5=99.7700 Loss=0.2925 Lr=0.0529 SL:5.9048 OH:0.2647 Cost:11.9189 Time:26.2228 Stage:hard
+[06/29 19:33:55] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=218 Acc@1=92.2300 Acc@5=99.7400 Loss=0.3093 Lr=0.0520 SL:5.7580 OH:0.3195 Cost:11.6824 Time:25.8976 Stage:hard
+[06/29 19:34:22] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=219 Acc@1=92.3700 Acc@5=99.8800 Loss=0.3021 Lr=0.0511 SL:5.4884 OH:0.2864 Cost:11.5916 Time:25.8211 Stage:hard
+[06/29 19:34:48] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=220 Acc@1=92.3500 Acc@5=99.7300 Loss=0.2990 Lr=0.0501 SL:7.3302 OH:0.4052 Cost:11.7837 Time:26.0610 Stage:hard
+[06/29 19:35:15] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=221 Acc@1=93.2100 Acc@5=99.8600 Loss=0.2725 Lr=0.0492 SL:7.3715 OH:0.3668 Cost:11.5221 Time:25.7744 Stage:hard
+[06/29 19:35:41] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=222 Acc@1=91.5700 Acc@5=99.8600 Loss=0.3466 Lr=0.0483 SL:6.7585 OH:0.2736 Cost:11.6538 Time:25.8872 Stage:hard
+[06/29 19:36:08] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=223 Acc@1=92.5800 Acc@5=99.7400 Loss=0.2830 Lr=0.0475 SL:7.0018 OH:0.4409 Cost:11.6103 Time:25.9541 Stage:hard
+[06/29 19:36:34] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=224 Acc@1=92.8200 Acc@5=99.8200 Loss=0.2774 Lr=0.0466 SL:7.0512 OH:0.2655 Cost:11.5811 Time:25.8281 Stage:hard
+[06/29 19:37:01] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=225 Acc@1=91.8000 Acc@5=99.7700 Loss=0.3204 Lr=0.0457 SL:6.7786 OH:0.2535 Cost:11.6363 Time:25.8090 Stage:hard
+[06/29 19:37:27] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=226 Acc@1=93.2300 Acc@5=99.8200 Loss=0.2639 Lr=0.0448 SL:6.7283 OH:0.2995 Cost:11.5388 Time:25.6752 Stage:hard
+[06/29 19:37:54] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=227 Acc@1=92.9900 Acc@5=99.7900 Loss=0.3006 Lr=0.0439 SL:6.3404 OH:0.2455 Cost:11.5980 Time:25.8764 Stage:hard
+[06/29 19:38:20] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=228 Acc@1=92.7000 Acc@5=99.8100 Loss=0.2784 Lr=0.0431 SL:6.0948 OH:0.3163 Cost:11.7305 Time:26.0505 Stage:hard
+[06/29 19:38:47] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=229 Acc@1=92.0600 Acc@5=99.7500 Loss=0.3084 Lr=0.0422 SL:5.8217 OH:0.2800 Cost:11.6219 Time:25.8829 Stage:hard
+[06/29 19:39:13] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=230 Acc@1=93.0200 Acc@5=99.8700 Loss=0.2694 Lr=0.0414 SL:7.4008 OH:0.3033 Cost:11.7167 Time:25.8905 Stage:hard
+[06/29 19:39:40] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=231 Acc@1=92.9100 Acc@5=99.8300 Loss=0.2768 Lr=0.0405 SL:7.4838 OH:0.3437 Cost:11.6969 Time:25.9291 Stage:hard
+[06/29 19:40:06] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=232 Acc@1=91.0400 Acc@5=99.7900 Loss=0.3682 Lr=0.0397 SL:7.1256 OH:0.2871 Cost:11.7008 Time:25.9451 Stage:hard
+[06/29 19:40:33] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=233 Acc@1=92.7100 Acc@5=99.7800 Loss=0.2779 Lr=0.0389 SL:6.9917 OH:0.2812 Cost:11.6372 Time:25.9476 Stage:hard
+[06/29 19:40:59] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=234 Acc@1=92.7600 Acc@5=99.8500 Loss=0.2962 Lr=0.0380 SL:6.6942 OH:0.2997 Cost:11.5869 Time:25.8699 Stage:hard
+[06/29 19:41:26] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=235 Acc@1=92.9800 Acc@5=99.8400 Loss=0.2854 Lr=0.0372 SL:6.3773 OH:0.2998 Cost:11.6452 Time:25.9514 Stage:hard
+[06/29 19:41:52] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=236 Acc@1=92.6700 Acc@5=99.7200 Loss=0.2940 Lr=0.0364 SL:5.9604 OH:0.2652 Cost:11.6617 Time:25.9079 Stage:hard
+[06/29 19:42:19] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=237 Acc@1=92.9700 Acc@5=99.8800 Loss=0.2852 Lr=0.0356 SL:5.7096 OH:0.3040 Cost:11.6494 Time:25.8807 Stage:hard
+[06/29 19:42:45] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=238 Acc@1=92.9000 Acc@5=99.8200 Loss=0.2656 Lr=0.0348 SL:5.4854 OH:0.2471 Cost:11.7006 Time:25.8681 Stage:hard
+[06/29 19:43:12] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=239 Acc@1=92.6700 Acc@5=99.8500 Loss=0.2863 Lr=0.0340 SL:5.2404 OH:0.2718 Cost:11.7673 Time:26.1044 Stage:hard
+[06/29 19:43:39] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=240 Acc@1=93.3300 Acc@5=99.8300 Loss=0.2662 Lr=0.0333 SL:6.8739 OH:0.3360 Cost:11.8159 Time:26.0993 Stage:hard
+[06/29 19:44:05] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=241 Acc@1=92.5500 Acc@5=99.8700 Loss=0.2993 Lr=0.0325 SL:6.9879 OH:0.3666 Cost:11.5473 Time:25.8149 Stage:hard
+[06/29 19:44:32] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=242 Acc@1=93.0800 Acc@5=99.8700 Loss=0.2792 Lr=0.0317 SL:6.6240 OH:0.2965 Cost:11.7295 Time:25.9846 Stage:hard
+[06/29 19:44:58] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=243 Acc@1=93.0100 Acc@5=99.8500 Loss=0.2717 Lr=0.0310 SL:6.2110 OH:0.2368 Cost:11.8928 Time:26.1177 Stage:hard
+[06/29 19:45:25] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=244 Acc@1=93.4000 Acc@5=99.8300 Loss=0.2557 Lr=0.0302 SL:5.8615 OH:0.2869 Cost:11.8689 Time:26.1388 Stage:hard
+[06/29 19:45:52] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=245 Acc@1=93.3700 Acc@5=99.8100 Loss=0.2569 Lr=0.0295 SL:5.7827 OH:0.2659 Cost:11.7931 Time:26.1443 Stage:hard
+[06/29 19:46:18] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=246 Acc@1=93.3600 Acc@5=99.8300 Loss=0.2695 Lr=0.0287 SL:5.5883 OH:0.2037 Cost:11.6777 Time:25.9166 Stage:hard
+[06/29 19:46:45] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=247 Acc@1=93.4300 Acc@5=99.8100 Loss=0.2589 Lr=0.0280 SL:5.4196 OH:0.2656 Cost:11.6876 Time:25.9752 Stage:hard
+[06/29 19:47:12] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=248 Acc@1=93.3200 Acc@5=99.8800 Loss=0.2593 Lr=0.0273 SL:5.2882 OH:0.2249 Cost:11.6442 Time:25.9669 Stage:hard
+[06/29 19:47:38] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=249 Acc@1=92.7500 Acc@5=99.8700 Loss=0.2826 Lr=0.0266 SL:5.1433 OH:0.2580 Cost:11.7087 Time:26.0573 Stage:hard
+[06/29 19:48:05] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=250 Acc@1=93.1700 Acc@5=99.8700 Loss=0.2791 Lr=0.0259 SL:6.4371 OH:0.2149 Cost:11.8771 Time:26.1559 Stage:hard
+[06/29 19:48:32] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=251 Acc@1=93.4400 Acc@5=99.9000 Loss=0.2657 Lr=0.0252 SL:6.4731 OH:0.2717 Cost:11.6987 Time:26.0343 Stage:hard
+[06/29 19:48:58] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=252 Acc@1=93.1900 Acc@5=99.8100 Loss=0.2843 Lr=0.0245 SL:6.1914 OH:0.2586 Cost:11.5623 Time:25.8478 Stage:hard
+[06/29 19:49:25] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=253 Acc@1=93.3700 Acc@5=99.8600 Loss=0.2586 Lr=0.0238 SL:6.0976 OH:0.2679 Cost:11.6279 Time:25.8964 Stage:hard
+[06/29 19:49:51] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=254 Acc@1=93.2400 Acc@5=99.8200 Loss=0.2621 Lr=0.0231 SL:5.9239 OH:0.2383 Cost:11.5681 Time:25.9361 Stage:hard
+[06/29 19:50:18] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=255 Acc@1=93.0600 Acc@5=99.8400 Loss=0.2716 Lr=0.0225 SL:5.6375 OH:0.2336 Cost:11.6305 Time:25.9289 Stage:hard
+[06/29 19:50:44] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=256 Acc@1=93.2400 Acc@5=99.8400 Loss=0.2654 Lr=0.0218 SL:5.3859 OH:0.2806 Cost:11.5217 Time:25.8156 Stage:hard
+[06/29 19:51:11] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=257 Acc@1=93.1400 Acc@5=99.8400 Loss=0.2800 Lr=0.0212 SL:5.2416 OH:0.2670 Cost:11.6760 Time:25.9132 Stage:hard
+[06/29 19:51:37] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=258 Acc@1=93.2500 Acc@5=99.8500 Loss=0.2669 Lr=0.0205 SL:5.0698 OH:0.2628 Cost:11.7730 Time:26.1068 Stage:hard
+[06/29 19:52:04] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=259 Acc@1=93.4600 Acc@5=99.8200 Loss=0.2581 Lr=0.0199 SL:5.1058 OH:0.2451 Cost:11.6126 Time:25.8743 Stage:hard
+[06/29 19:52:30] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=260 Acc@1=93.3700 Acc@5=99.8700 Loss=0.2687 Lr=0.0193 SL:6.2981 OH:0.2381 Cost:11.6635 Time:25.9244 Stage:hard
+[06/29 19:52:57] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=261 Acc@1=93.8900 Acc@5=99.8800 Loss=0.2480 Lr=0.0187 SL:6.3516 OH:0.2808 Cost:11.6101 Time:25.9187 Stage:hard
+[06/29 19:53:23] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=262 Acc@1=93.2200 Acc@5=99.8400 Loss=0.2714 Lr=0.0181 SL:6.0965 OH:0.2070 Cost:11.6732 Time:25.9605 Stage:hard
+[06/29 19:53:50] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=263 Acc@1=93.4000 Acc@5=99.8300 Loss=0.2541 Lr=0.0175 SL:5.8244 OH:0.2573 Cost:11.6785 Time:25.8996 Stage:hard
+[06/29 19:54:16] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=264 Acc@1=93.9100 Acc@5=99.8500 Loss=0.2423 Lr=0.0169 SL:5.6438 OH:0.1589 Cost:11.6534 Time:25.9073 Stage:hard
+[06/29 19:54:43] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=265 Acc@1=93.5700 Acc@5=99.8200 Loss=0.2484 Lr=0.0163 SL:5.4626 OH:0.1936 Cost:11.6299 Time:25.8724 Stage:hard
+[06/29 19:55:10] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=266 Acc@1=93.6300 Acc@5=99.8700 Loss=0.2530 Lr=0.0158 SL:5.1970 OH:0.2327 Cost:11.8156 Time:26.1468 Stage:hard
+[06/29 19:55:36] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=267 Acc@1=93.5100 Acc@5=99.8000 Loss=0.2634 Lr=0.0152 SL:5.1294 OH:0.1909 Cost:11.6944 Time:25.9181 Stage:hard
+[06/29 19:56:03] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=268 Acc@1=93.8400 Acc@5=99.8400 Loss=0.2469 Lr=0.0146 SL:4.9076 OH:0.2512 Cost:11.6116 Time:25.8013 Stage:hard
+[06/29 19:56:29] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=269 Acc@1=93.4600 Acc@5=99.8600 Loss=0.2602 Lr=0.0141 SL:4.7967 OH:0.2155 Cost:11.7252 Time:26.0393 Stage:hard
+[06/29 19:56:56] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=270 Acc@1=93.6400 Acc@5=99.8100 Loss=0.2494 Lr=0.0136 SL:6.3708 OH:0.2541 Cost:11.8660 Time:26.1068 Stage:hard
+[06/29 19:57:23] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=271 Acc@1=93.7000 Acc@5=99.8000 Loss=0.2465 Lr=0.0131 SL:6.8818 OH:0.3131 Cost:11.7549 Time:26.0247 Stage:hard
+[06/29 19:57:49] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=272 Acc@1=93.6100 Acc@5=99.8700 Loss=0.2504 Lr=0.0126 SL:7.0020 OH:0.2265 Cost:11.6763 Time:25.9200 Stage:hard
+[06/29 19:58:16] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=273 Acc@1=93.5100 Acc@5=99.8300 Loss=0.2575 Lr=0.0121 SL:6.8021 OH:0.2135 Cost:11.6758 Time:25.9690 Stage:hard
+[06/29 19:58:42] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=274 Acc@1=93.5400 Acc@5=99.8400 Loss=0.2532 Lr=0.0116 SL:6.2976 OH:0.1987 Cost:11.5605 Time:25.8638 Stage:hard
+[06/29 19:59:09] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=275 Acc@1=93.7400 Acc@5=99.8500 Loss=0.2484 Lr=0.0111 SL:6.1110 OH:0.2362 Cost:11.6462 Time:25.9125 Stage:hard
+[06/29 19:59:35] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=276 Acc@1=93.5800 Acc@5=99.8900 Loss=0.2544 Lr=0.0106 SL:6.0655 OH:0.2564 Cost:11.5808 Time:25.7962 Stage:hard
+[06/29 20:00:02] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=277 Acc@1=93.8400 Acc@5=99.8700 Loss=0.2460 Lr=0.0102 SL:5.7329 OH:0.1927 Cost:11.7057 Time:25.9991 Stage:hard
+[06/29 20:00:28] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=278 Acc@1=93.7700 Acc@5=99.9000 Loss=0.2503 Lr=0.0097 SL:5.3812 OH:0.2102 Cost:11.6257 Time:25.9357 Stage:hard
+[06/29 20:00:55] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=279 Acc@1=93.8800 Acc@5=99.8800 Loss=0.2402 Lr=0.0093 SL:5.1653 OH:0.2068 Cost:11.6337 Time:25.8297 Stage:hard
+[06/29 20:01:21] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=280 Acc@1=93.8900 Acc@5=99.9000 Loss=0.2504 Lr=0.0088 SL:6.2001 OH:0.2122 Cost:11.7069 Time:25.9668 Stage:hard
+[06/29 20:01:48] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=281 Acc@1=93.8800 Acc@5=99.8500 Loss=0.2414 Lr=0.0084 SL:6.3732 OH:0.2337 Cost:11.8377 Time:26.0851 Stage:hard
+[06/29 20:02:14] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=282 Acc@1=93.7800 Acc@5=99.8400 Loss=0.2452 Lr=0.0080 SL:6.3828 OH:0.1633 Cost:11.6413 Time:25.9095 Stage:hard
+[06/29 20:02:41] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=283 Acc@1=93.8400 Acc@5=99.8700 Loss=0.2425 Lr=0.0076 SL:6.4083 OH:0.2363 Cost:11.6677 Time:25.9984 Stage:hard
+[06/29 20:03:08] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=284 Acc@1=93.8900 Acc@5=99.8200 Loss=0.2393 Lr=0.0072 SL:6.2824 OH:0.2485 Cost:11.6402 Time:25.9222 Stage:hard
+[06/29 20:03:34] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=285 Acc@1=93.9500 Acc@5=99.8600 Loss=0.2396 Lr=0.0068 SL:6.0492 OH:0.1989 Cost:11.6280 Time:25.8745 Stage:hard
+[06/29 20:04:01] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=286 Acc@1=93.9700 Acc@5=99.8500 Loss=0.2390 Lr=0.0065 SL:5.8515 OH:0.2470 Cost:11.7002 Time:25.9569 Stage:hard
+[06/29 20:04:27] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=287 Acc@1=93.9400 Acc@5=99.8300 Loss=0.2413 Lr=0.0061 SL:5.3748 OH:0.2312 Cost:11.6349 Time:25.9121 Stage:hard
+[06/29 20:04:54] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=288 Acc@1=93.9400 Acc@5=99.8600 Loss=0.2451 Lr=0.0058 SL:5.1941 OH:0.2088 Cost:11.6935 Time:26.0639 Stage:hard
+[06/29 20:05:21] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=289 Acc@1=93.9700 Acc@5=99.8600 Loss=0.2435 Lr=0.0054 SL:4.9996 OH:0.1899 Cost:11.7974 Time:26.0965 Stage:hard
+[06/29 20:05:47] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=290 Acc@1=93.9100 Acc@5=99.8900 Loss=0.2418 Lr=0.0051 SL:6.4430 OH:0.1911 Cost:11.7245 Time:25.9756 Stage:hard
+[06/29 20:06:14] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=291 Acc@1=93.8600 Acc@5=99.8500 Loss=0.2397 Lr=0.0048 SL:6.9495 OH:0.1630 Cost:11.5968 Time:26.1125 Stage:hard
+[06/29 20:06:41] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=292 Acc@1=94.0900 Acc@5=99.8700 Loss=0.2396 Lr=0.0045 SL:6.5759 OH:0.2492 Cost:11.7400 Time:26.0534 Stage:hard
+[06/29 20:07:08] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=293 Acc@1=93.9400 Acc@5=99.8800 Loss=0.2393 Lr=0.0042 SL:5.8267 OH:0.1720 Cost:11.6688 Time:25.9509 Stage:hard
+[06/29 20:07:34] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=294 Acc@1=93.9100 Acc@5=99.8800 Loss=0.2359 Lr=0.0039 SL:5.5154 OH:0.1719 Cost:11.7293 Time:26.0041 Stage:hard
+[06/29 20:08:01] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=295 Acc@1=93.8600 Acc@5=99.8900 Loss=0.2454 Lr=0.0036 SL:5.4714 OH:0.1777 Cost:11.7444 Time:26.0689 Stage:hard
+[06/29 20:08:28] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=296 Acc@1=94.0200 Acc@5=99.8700 Loss=0.2372 Lr=0.0033 SL:5.2783 OH:0.2105 Cost:11.7840 Time:26.1033 Stage:hard
+[06/29 20:08:54] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=297 Acc@1=93.8800 Acc@5=99.8700 Loss=0.2389 Lr=0.0031 SL:5.1440 OH:0.1691 Cost:11.7261 Time:25.9843 Stage:hard
+[06/29 20:09:21] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=298 Acc@1=93.9700 Acc@5=99.8800 Loss=0.2402 Lr=0.0028 SL:4.9806 OH:0.2229 Cost:11.7199 Time:26.0219 Stage:hard
+[06/29 20:09:47] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=299 Acc@1=93.9400 Acc@5=99.8600 Loss=0.2392 Lr=0.0026 SL:4.7476 OH:0.2135 Cost:11.6424 Time:25.9891 Stage:hard
+[06/29 20:10:14] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=300 Acc@1=94.0300 Acc@5=99.8900 Loss=0.2352 Lr=0.0024 SL:5.9711 OH:0.1944 Cost:11.8644 Time:26.1918 Stage:hard
+[06/29 20:10:41] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=301 Acc@1=94.1300 Acc@5=99.8900 Loss=0.2356 Lr=0.0022 SL:5.8248 OH:0.2187 Cost:11.7102 Time:25.9926 Stage:hard
+[06/29 20:11:07] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=302 Acc@1=94.1100 Acc@5=99.8700 Loss=0.2372 Lr=0.0020 SL:6.0923 OH:0.2097 Cost:11.6359 Time:25.9736 Stage:hard
+[06/29 20:11:34] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=303 Acc@1=94.1600 Acc@5=99.8800 Loss=0.2346 Lr=0.0018 SL:5.7187 OH:0.1908 Cost:11.6519 Time:25.9651 Stage:hard
+[06/29 20:12:01] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=304 Acc@1=94.1400 Acc@5=99.8600 Loss=0.2341 Lr=0.0016 SL:5.4938 OH:0.1573 Cost:11.8359 Time:26.1137 Stage:hard
+[06/29 20:12:27] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=305 Acc@1=94.0400 Acc@5=99.8700 Loss=0.2362 Lr=0.0014 SL:5.2487 OH:0.1724 Cost:11.7077 Time:26.0734 Stage:hard
+[06/29 20:12:54] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=306 Acc@1=94.1300 Acc@5=99.8800 Loss=0.2349 Lr=0.0013 SL:5.1028 OH:0.2229 Cost:11.7369 Time:26.0012 Stage:hard
+[06/29 20:13:21] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=307 Acc@1=94.1400 Acc@5=99.8500 Loss=0.2381 Lr=0.0011 SL:4.9394 OH:0.2232 Cost:11.7472 Time:25.9935 Stage:hard
+[06/29 20:13:47] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=308 Acc@1=94.1400 Acc@5=99.8900 Loss=0.2351 Lr=0.0010 SL:4.7209 OH:0.2144 Cost:11.8121 Time:26.1758 Stage:hard
+[06/29 20:14:14] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=309 Acc@1=94.1400 Acc@5=99.8700 Loss=0.2348 Lr=0.0009 SL:4.7835 OH:0.1814 Cost:11.6462 Time:25.8812 Stage:hard
+[06/29 20:14:41] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=310 Acc@1=94.1200 Acc@5=99.8800 Loss=0.2374 Lr=0.0007 SL:5.8692 OH:0.2088 Cost:11.7872 Time:26.1266 Stage:hard
+[06/29 20:15:07] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=311 Acc@1=94.1300 Acc@5=99.8900 Loss=0.2359 Lr=0.0006 SL:6.0169 OH:0.2103 Cost:11.7576 Time:26.0930 Stage:hard
+[06/29 20:15:34] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=312 Acc@1=94.1100 Acc@5=99.8800 Loss=0.2355 Lr=0.0006 SL:5.9418 OH:0.1808 Cost:11.6479 Time:25.9392 Stage:hard
+[06/29 20:16:00] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=313 Acc@1=94.1600 Acc@5=99.8900 Loss=0.2363 Lr=0.0005 SL:5.7284 OH:0.1812 Cost:11.6271 Time:25.8748 Stage:hard
+[06/29 20:16:27] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=314 Acc@1=94.0800 Acc@5=99.8900 Loss=0.2367 Lr=0.0004 SL:5.5081 OH:0.0982 Cost:11.6870 Time:25.9801 Stage:hard
+[06/29 20:16:54] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=315 Acc@1=94.0200 Acc@5=99.8800 Loss=0.2361 Lr=0.0003 SL:5.4176 OH:0.1764 Cost:11.8730 Time:26.1729 Stage:hard
+[06/29 20:17:20] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=316 Acc@1=94.1300 Acc@5=99.8900 Loss=0.2359 Lr=0.0003 SL:5.1360 OH:0.1381 Cost:11.6926 Time:25.9209 Stage:hard
+[06/29 20:17:47] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=317 Acc@1=94.0800 Acc@5=99.8900 Loss=0.2356 Lr=0.0002 SL:4.8686 OH:0.1952 Cost:11.7184 Time:26.0778 Stage:hard
+[06/29 20:18:14] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=318 Acc@1=94.1400 Acc@5=99.8800 Loss=0.2353 Lr=0.0002 SL:4.7596 OH:0.1875 Cost:11.7471 Time:26.0754 Stage:hard
+[06/29 20:18:40] cifar10-wrn40_2-wrn16_2 INFO: [Eval] Epoch=319 Acc@1=94.1300 Acc@5=99.8900 Loss=0.2356 Lr=0.0002 SL:4.7554 OH:0.1599 Cost:11.7970 Time:26.1898 Stage:hard
+[06/29 20:18:40] cifar10-wrn40_2-wrn16_2 INFO: Best: 94.1600
+[06/29 20:18:40] cifar10-wrn40_2-wrn16_2 INFO: Generation Cost: 1.256
